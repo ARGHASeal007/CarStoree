@@ -1,0 +1,323 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;600&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Rajdhani', sans-serif;
+    background-color: black;
+    color: white;
+}
+
+.navbar{
+    width: 100% !important;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 !important;
+}
+.navbar-brand {
+    display: inline-block;
+    padding-top: 0rem !important; 
+    padding-bottom: 0rem !important; 
+    margin-right: 0rem !important; 
+    font-size: 2rem;
+    line-height: inherit;
+    white-space: nowrap;
+    text-align: center;
+}
+.navbar-brand img{
+    width: 60px;
+    height: auto;
+}
+.nav-item{
+    font-size: 1.25rem;
+}
+.nav-link:hover{
+    font-weight: 600;
+}
+.nav-link{
+    font-weight: 400;
+    padding: 0.25rem 1.25rem !important;
+}
+
+/* BANNER */
+.BANNER{
+    background: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url(img/vlad-tchompalov-jwyO3NhPZKQ-unsplash.jpg);
+    height: 85vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2rem 4rem;
+    padding-left: 8rem;
+    font-family: 'Rajdhani', sans-serif;
+    margin-bottom: 1rem;
+}
+.BANNER h1 span{
+    color: white;
+    font-weight: 400;
+}
+.BANNER h1{
+    font-weight: 600;
+    color: black;
+    letter-spacing: 5px;
+    font-size: 65px;
+    word-spacing: 5px;
+    margin-bottom: 3rem;
+    
+}
+.BANNER h5{
+    /* margin-bottom: 2rem; */
+    font-weight: 600;
+    word-spacing: 15px;
+    letter-spacing: .75rem;
+    color: white;
+}
+.BANNER button{
+    background-color: black;
+    color: white;
+    padding: 0.5rem 1.5rem;
+    border: 1px solid black;
+    border-radius: 0%;
+}
+.BANNER button:hover{
+    background-color: transparent;
+    border: 1px solid white;
+}
+.BANNER button:focus,
+.navbar-toggler:focus{
+    box-shadow: none;
+    outline: none;
+}
+
+
+/* car module */
+
+.car-module{
+
+    margin: 5rem auto;
+    /* box-shadow: 10px 10px 10px rgb(10, 10, 26); */
+
+}
+.car-module-header{
+    text-align: center;
+    padding: 1.5rem;
+}
+.car-module-header h3{
+    color: #007bff;
+    font-weight: 400;
+}
+.car-module-img{
+    width: 400px;
+    margin: 1rem auto;
+}
+.car-module-img img{
+    width: 400px;
+}
+.ri-flashlight-fill{
+    font-size: 18px;
+    color: #007bff;
+}
+.car-module-highlights{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 2rem;
+    margin: 1.5rem auto;
+}
+.feature-highlights{
+    width: 150px;
+    margin: 1rem;
+    padding: 0.75rem;
+    text-align: center;
+}
+.feature-highlights i{
+    font-size: 22px;
+    color: #007bff;
+}
+.feature-highlights h3{
+    font-size: 20px;
+}
+
+/* Modules */
+
+.Module{
+    margin: 5rem auto;
+}
+.module-img{
+     /* background: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)) !important; */
+    opacity: 0.5;
+    object-fit: cover;
+    width: 100%;
+    height: 400px;
+}
+.Module .row{
+    width: 100%;
+    margin: 20px auto !important;
+}
+.Module .row .col-3{
+    padding: 0px !important;
+    position: relative;
+    overflow: hidden;
+    height: 400px;
+}
+.Module .row .col-3 h2{
+        text-align: center;
+        position: relative;
+        bottom: 50%;
+}
+.Module .row .col-3 h2 a{
+        color: white;
+        /* box-shadow: 5px 5px 8px black; */
+        text-decoration: none;
+        text-shadow: 3px 3px 2px black;
+}
+.Module .col-3 img{
+    transform: scale(1);
+    transition: 0.7s ease-in-out;
+}
+.Module .col-3:hover img{
+    transform: scale(1.2);
+    opacity: 0.8;
+}
+
+/* Latest Post */
+
+.latest-post-box{
+    margin: 5rem auto;
+}
+.latest-post-box .row .card{
+    background: none;
+    position: relative;
+}
+
+.latest-post-box .row .card .card-body{
+        padding: 15px;
+        margin: 1.5rem;
+        background-color: hsl(0deg 0% 100% / 10%);
+        position: absolute;
+        backdrop-filter: blur(8px);
+        width: 350px;
+        border-radius: 15px;
+        border: none;
+        right: 0px;
+        bottom: -40px;
+        color: white !important;
+}
+.latest-post-box .row .card-img{
+    width: 350px;
+    height: 200px;
+}
+.card-img img{
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    height: auto;
+    border-radius: 10px;
+}
+.blog-post a{
+    outline: none;
+    box-shadow: none;
+    border-radius: 0;
+    width: 100px;
+    text-align: center;
+}
+
+
+/* sponsors */
+.sponsors{
+    width: 100%;
+    height: 30vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)),url(img/pexels-albin-berlin-919073.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin: 5rem auto;
+    
+}
+.car-company{
+    width: 14%;
+    height: auto;
+    padding: 10px;
+    margin: 12px;
+    text-align: center;
+}
+.car-company img{
+    width: 70px;
+    height: auto;
+    opacity: 0.6;
+}
+.car-company img:hover{
+    opacity: 1;
+}
+
+/* Footer */
+
+.subscribe-bar{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 4rem;
+}
+.subscribe-box{
+    width: 600px;
+    margin: 2rem auto;
+    padding: 5px;
+    height: auto;
+}
+.subscribe-box input{
+    width: 70%;
+    padding: 6px;
+    border: 0px;
+    background: transparent;
+    border-bottom: 1px solid white;
+    color: white;
+}
+.subscribe-box input:hover,
+.subscribe-box input:focus {
+    box-shadow: none;
+    outline: none;
+}
+.subscribe-btn{
+    background: transparent;
+    color: white;
+    border: 2px solid white;
+    border-radius: 0;
+    width: 28%;
+    
+}
+.subscribe-btn:hover{
+ border: 2px solid #007bff;
+ color: #007bff;
+}
+.img-logo{
+    width: 50px;
+    filter: invert(1);
+}
+.follow-us ul{
+    display: inline-flex;
+}
+.follow-us ul li{
+    padding: 3px;
+}
+.follow-us ul li a{
+    text-decoration: none;
+    
+}
+.follow-us ul li a:hover{
+    color: white;
+}
+
+

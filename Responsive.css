@@ -1,0 +1,236 @@
+/* For Tablet */
+@media only screen and (max-width: 767px) {
+    .navbar {
+        flex-direction: row;
+        justify-content: space-between !important;
+    }
+
+    .navbar-brand img {
+        width: 60px;
+        margin: 0 0.5rem;
+    }
+
+    .navbar-toggler:hover,
+    .navbar-toggler i:focus {
+        border: 1px solid #007bff !important;
+        border-radius: 0% !important;
+    }
+
+    .navbar-toggler {
+        border: 2px solid #010313 !important;
+        border-radius: 0%;
+    }
+
+    .ri-menu-5-line {
+        font-size: 30px;
+        color: black;
+    }
+
+    .navbar-nav {
+        height: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .navbar .navbar-nav .nav-item {
+        margin-bottom: 20px;
+    }
+
+    .navbar-collapse {
+        background-color: transparent;
+        height: 350px;
+    }
+
+    /* BANNER */
+    .BANNER {
+        padding: 1rem;
+        padding-left: 4.5rem;
+    }
+    
+    .BANNER h5 {
+        word-spacing: 8px !important;
+        letter-spacing: 4px !important;
+        font-size: 15px !important;
+        
+    }
+    
+    .BANNER h1 {
+        font-size: 40px !important;
+    }
+    .BANNER button{
+        font-size: 15px;
+    }
+    .latest-post-box .row .card-img {
+        width: 300px;
+        height: 150px;
+    }
+    .latest-post-box .row .card .card-body{
+        width: 350px;
+        right: 35px;
+        bottom: -100px;
+        z-index: 10;
+    }
+    .m-t{
+        margin-top: 4rem;
+    }
+    .car-company{
+        padding: 5px;
+        margin: 8px;
+    }
+    .car-company img{
+        width: 50px;
+    }
+    .subscribe-box{
+        width: 500px;
+    }
+}
+
+/* For Phone */
+@media only screen and (max-width: 575.98px) {
+    .navbar-brand img {
+        width: 50px;
+        
+    }
+    .BANNER {
+        padding: 1rem;
+        height: 70vh;
+    }
+    .BANNER h1 {
+        font-size: 25px !important;
+
+    }
+    .BANNER h5 {
+        word-spacing: 4px !important;
+        letter-spacing: 2px !important;
+        font-size: 10px !important;
+
+    }
+    .BANNER button{
+        font-size: 12px;
+    }
+    .car-module-header h1{
+        font-size: 28px;
+    }
+    .car-module-header h2{
+        font-size: 1.5rem;
+    }
+    .car-module-header h3{
+        font-size: 20px;
+    }
+    .ri-flashlight-fill{
+        font-size: 15px;
+
+    }
+    .car-module-img{
+        width: 250px;
+    }
+    .car-module-img img{
+        width: 250px;
+    }
+    .car-module-highlights{
+        width: 100%;
+        column-gap: 1rem;
+    }
+    .feature-highlights{
+        width: 30%;
+        padding: 0;
+        margin: 0.5rem;
+    }
+    .feature-highlights h2{
+        font-size: 1rem;
+    }
+    .feature-highlights h3{
+        font-size: 15px;
+    }
+    .Module .row .col-3{
+        height: 250px;
+    }
+    .Module .row .col-3 img{
+        height: 250px;
+    }
+    .Module .row .col-3 h2{
+        font-size: 15px;
+    }
+    .Module h2{
+        font-size: 1.25rem !important;
+    }
+    .latest-post-box .row,
+    .latest-post-box .row .col-md-6,
+    .latest-post-box .row .col-md-6 .card,
+    .latest-post-box .row .col-md-6 .card .card-img{
+        width: 100%;
+    }
+    .latest-post-box .row{
+        margin: 0%;
+    }
+    .latest-post-box .row .col-md-6{
+        padding: 0%;
+    }
+    .card{
+        height: 45vh;
+        display: block !important;
+    }
+    .card-img-right{
+        height:40vh !important;
+    }
+    .card-body{
+        margin-bottom: 1rem;
+    }
+    .card-body{
+        position: relative !important;
+        bottom: 130px !important;
+        right: 0% !important;
+        margin: 0% auto !important;
+        padding: 10px !important;
+        width: 90% !important;
+        height: 30vh !important;
+    }
+    .card-body strong{
+        margin: 0 !important;
+        font-size: 16px;
+    }
+    .card-body h3{
+        font-size: 20px !important;
+    }
+    .card-body div{
+        font-size: 13px;
+        margin: 0 !important;
+    }
+    .card-text{
+        font-size: 12px;
+    }
+    .blog-post{
+        padding: 10px;
+    }
+    .m-t{
+        margin: 0;
+    }
+    .sponsors{
+        height: 20vh;
+    }
+    .car-company {
+        margin: 5px;
+    }
+    .car-company img{
+        width: 30px;
+    }
+    .subscribe-box{
+        width: 250px;
+    }
+    .subscribe-box input{
+        font-size: x-small;
+    }
+    .subscribe-btn{
+        font-size: x-small;
+        padding: 3px;
+    }
+    .subscribe-bar h2{
+        font-size: 1.75rem;
+    }
+    .logo-box{
+        text-align: left;
+    }
+    .support{
+        text-align: left;
+    }
+}
